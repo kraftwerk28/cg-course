@@ -9,5 +9,5 @@ if __name__ == '__main__':
     im2 = 255 - im
     im3 = (100. - 255) * im + 100
     im4 = 255. * (im / 255.) ** 2
-    imshow(im4)
+    imshow(im2)
     show()
